@@ -1,0 +1,39 @@
+HTML Tags:
+- <link>
+- <meta>
+- <script>
+- <header>
+- <footer>
+- <section>
+- <div>
+- <nav>
+- <img>
+- <h1>
+- <p>
+- <a>
+
+CSS Selectors:
+- *
+- body
+- div
+- .portrait
+- .navbar
+- .logo
+- .btnInfo
+- .btnInfo .btn
+- .btnInfo:hover
+- .card-img-top
+- #body1
+- #profile
+- #id-profile
+- #landing
+- #top-navbar
+- #foot
+
+CSS Properties:
+- font-family
+- color
+- background-color
+- box-shadow
+- padding
+
