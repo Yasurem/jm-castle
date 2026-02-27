@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Grab the elements
     // Elements: BgImg change
     let clsuBtn = document.querySelector('#clsu');
-    let harvardBtn = document.querySelector('#harvard');
     let pupBtn = document.querySelector('#pup');
 
     // Elements: BgColor change
@@ -17,10 +16,6 @@ document.addEventListener('DOMContentLoaded', function() {
     let body1 = document.querySelector('#body1');
     clsuBtn.addEventListener('click', function() {
         body1.style.backgroundImage = "linear-gradient(rgba(45, 55, 72, 0.8), rgba(45, 55, 72, 0.8)), url('https://clsu.edu.ph/storage/img/home/why-choose/wc1.jpg')";
-    });
-
-    harvardBtn.addEventListener('click', function() {
-        body1.style.backgroundImage = "linear-gradient(rgba(45, 55, 72, 0.8), rgba(45, 55, 72, 0.8)), url('https://www.crimsoneducation.org/_next/image?url=https%3A%2F%2Fa.storyblok.com%2Ff%2F64062%2F2560x1792%2F39445ec358%2Fharvard.jpeg&w=3840&q=75')";
     });
 
     pupBtn.addEventListener('click', function() {
